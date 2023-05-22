@@ -13,7 +13,12 @@ module.exports = {
       }
     },
 
-    extend: {}
+    extend: {
+      fontFamily: {
+        primary: ['Mona sans', 'system-ui', 'sans-serif'],
+        secondary: ['Satoshi', 'system-ui', 'sans-serif']
+      }
+    }
   },
   plugins: []
 }

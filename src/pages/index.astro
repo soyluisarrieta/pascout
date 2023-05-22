@@ -1,19 +1,25 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro'
 ---
 
 <Layout title="Welcome to Pascout.">
-  <header class="w-full p-3 border-b border-slate-300">
-    <div class="container">
-      <div class="font-bold text-2xl">
-        Pascout
+  <Header></Header>
+	<main>
+    <div class="flex justify-center gap-3">
+      <div class="font-primary">
+        <h1 class="text-4xl">Welcome to Pascout</h1>
+        <h1 class="text-4xl font-semibold">Welcome to Pascout</h1>
+        <h1 class="text-4xl font-bold">Welcome to Pascout</h1>
+        <h1 class="text-4xl font-extrabold">Welcome to Pascout</h1>
+      </div>
+      <div class="font-secondary">
+        <h1 class="text-4xl">Welcome to Pascout</h1>
+        <h1 class="text-4xl font-medium">Welcome to Pascout</h1>
+        <h1 class="text-4xl font-bold">Welcome to Pascout</h1>
+        <h1 class="text-4xl font-extrabold">Welcome to Pascout</h1>
       </div>
     </div>
-  </header>
-  
-	<main>
-		<h1 class="text-4xl font-bold">Welcome to Pascout</h1>
-		
 	</main>
 </Layout>
 

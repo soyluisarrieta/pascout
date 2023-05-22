@@ -1,0 +1,6 @@
+@import url("/fonts/mona-sans/import.css");
+@import url("/fonts/satoshi/import.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
